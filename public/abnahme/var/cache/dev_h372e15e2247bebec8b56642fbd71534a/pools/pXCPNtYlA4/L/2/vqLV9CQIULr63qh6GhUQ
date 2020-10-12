@@ -1,0 +1,233 @@
+<?php //%255BShopware%255CCore%255CCheckout%255CCustomer%255CSalesChannel%255CListAddressRoute%2523load%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Shopware\\Core\\Framework\\Routing\\Annotation\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Entity')),
+        clone ($p['OpenApi\\Annotations\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Get')),
+        clone ($p['OpenApi\\Annotations\\Parameter'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Parameter')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone $p['OpenApi\\Context'],
+        clone ($p['OpenApi\\Annotations\\JsonContent'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\JsonContent')),
+        clone ($p['OpenApi\\Annotations\\Items'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Items')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone ($p['OpenApi\\Annotations\\Post'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Post')),
+        clone $p['OpenApi\\Annotations\\Parameter'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Annotations\\Response'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Annotations\\JsonContent'],
+        clone $p['OpenApi\\Annotations\\Items'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Entity' => [
+            'value' => [
+                'customer_address',
+            ],
+        ],
+        'stdClass' => [
+            'path' => [
+                1 => '/account/list-address',
+                11 => '/account/list-address',
+            ],
+            'tags' => [
+                1 => [
+                    'Store API',
+                    'Account',
+                    'Address',
+                ],
+                11 => [
+                    'Store API',
+                    'Account',
+                    'Address',
+                ],
+            ],
+            'description' => [
+                1 => 'List address',
+                4 => '',
+                11 => 'List address',
+                14 => '',
+            ],
+            'operationId' => [
+                1 => 'listAddress',
+                11 => 'listAddress',
+            ],
+            'parameters' => [
+                1 => [
+                    $o[2],
+                ],
+                11 => [
+                    $o[12],
+                ],
+            ],
+            'responses' => [
+                1 => [
+                    $o[4],
+                ],
+                11 => [
+                    $o[14],
+                ],
+            ],
+            '_context' => [
+                1 => $o[10],
+                $o[3],
+                4 => $o[5],
+                6 => $o[9],
+                $o[8],
+                11 => $o[20],
+                $o[13],
+                14 => $o[15],
+                16 => $o[19],
+                $o[18],
+            ],
+            'name' => [
+                2 => 'Api-Basic-Parameters',
+                12 => 'Api-Basic-Parameters',
+            ],
+            'filename' => [
+                3 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                5 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                8 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                13 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                15 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                18 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                3 => 825,
+                5 => 825,
+                8 => 825,
+                825,
+                825,
+                13 => 825,
+                15 => 825,
+                18 => 825,
+                825,
+                825,
+            ],
+            'method' => [
+                3 => 'Annotation',
+                5 => 'Annotation',
+                8 => 'Annotation',
+                'Annotation',
+                'Annotation',
+                13 => 'Annotation',
+                15 => 'Annotation',
+                18 => 'Annotation',
+                'Annotation',
+                'Annotation',
+            ],
+            'class' => [
+                3 => 'DocParser',
+                5 => 'DocParser',
+                8 => 'DocParser',
+                'DocParser',
+                'DocParser',
+                13 => 'DocParser',
+                15 => 'DocParser',
+                18 => 'DocParser',
+                'DocParser',
+                'DocParser',
+            ],
+            'namespace' => [
+                3 => 'Doctrine\\Common\\Annotations',
+                5 => 'Doctrine\\Common\\Annotations',
+                8 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+                13 => 'Doctrine\\Common\\Annotations',
+                15 => 'Doctrine\\Common\\Annotations',
+                18 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                3 => [
+                    $o[2],
+                ],
+                5 => [
+                    $o[4],
+                ],
+                8 => [
+                    $o[7],
+                ],
+                [
+                    $o[6],
+                ],
+                [
+                    $o[1],
+                ],
+                13 => [
+                    $o[12],
+                ],
+                15 => [
+                    $o[14],
+                ],
+                18 => [
+                    $o[17],
+                ],
+                [
+                    $o[16],
+                ],
+                [
+                    $o[11],
+                ],
+            ],
+            'response' => [
+                4 => '200',
+                14 => '200',
+            ],
+            '_unmerged' => [
+                4 => [
+                    $o[6],
+                ],
+                14 => [
+                    $o[16],
+                ],
+            ],
+            'type' => [
+                6 => 'array',
+                16 => 'array',
+            ],
+            'items' => [
+                6 => $o[7],
+                16 => $o[17],
+            ],
+            'ref' => [
+                7 => '#/components/schemas/customer_address_flat',
+                17 => '#/components/schemas/customer_address_flat',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                21 => '/store-api/v{version}/account/list-address',
+            ],
+            'name' => [
+                21 => 'store-api.account.address.list.get',
+            ],
+            'methods' => [
+                21 => [
+                    'GET',
+                    'POST',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[11],
+        $o[21],
+    ],
+    []
+); }];

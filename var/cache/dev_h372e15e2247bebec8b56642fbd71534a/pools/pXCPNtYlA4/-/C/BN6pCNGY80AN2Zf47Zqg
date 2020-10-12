@@ -1,0 +1,95 @@
+<?php //%255BShopware%255CCore%255CContent%255CProductExport%255CSalesChannel%255CExportController%2523index%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['OpenApi\\Annotations\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Get')),
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone $p['OpenApi\\Context'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'path' => [
+                '/product-export/{accessKey}/{fileName}',
+            ],
+            'tags' => [
+                [
+                    'Store API',
+                    'Product',
+                ],
+            ],
+            'description' => [
+                'Export product export',
+                '',
+            ],
+            'operationId' => [
+                'readProductExport',
+            ],
+            'responses' => [
+                [
+                    $o[1],
+                ],
+            ],
+            '_context' => [
+                $o[3],
+                $o[2],
+            ],
+            'response' => [
+                1 => '200',
+            ],
+            'filename' => [
+                2 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                2 => 825,
+                825,
+            ],
+            'method' => [
+                2 => 'Annotation',
+                'Annotation',
+            ],
+            'class' => [
+                2 => 'DocParser',
+                'DocParser',
+            ],
+            'namespace' => [
+                2 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                2 => [
+                    $o[1],
+                ],
+                [
+                    $o[0],
+                ],
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                4 => '/store-api/product-export/{accessKey}/{fileName}',
+            ],
+            'name' => [
+                4 => 'store-api.product.export',
+            ],
+            'defaults' => [
+                4 => [
+                    'auth_required' => false,
+                ],
+            ],
+            'methods' => [
+                4 => [
+                    'GET',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[4],
+    ],
+    []
+); }];

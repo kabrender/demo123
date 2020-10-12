@@ -1,0 +1,229 @@
+<?php //%255BShopware%255CCore%255CCheckout%255CCustomer%255CSalesChannel%255CUpsertAddressRoute%2523upsert%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['OpenApi\\Annotations\\Post'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Post')),
+        clone ($p['OpenApi\\Annotations\\RequestBody'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\RequestBody')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone ($p['OpenApi\\Annotations\\JsonContent'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\JsonContent')),
+        clone $p['OpenApi\\Context'],
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Annotations\\JsonContent'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone ($p['OpenApi\\Annotations\\Patch'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Patch')),
+        clone $p['OpenApi\\Annotations\\RequestBody'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Annotations\\JsonContent'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Annotations\\Response'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Annotations\\JsonContent'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        clone $p['Symfony\\Component\\Routing\\Annotation\\Route'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'path' => [
+                '/account/address',
+                10 => '/account/address/{addressId}',
+            ],
+            'tags' => [
+                [
+                    'Store API',
+                    'Account',
+                    'Address',
+                ],
+                10 => [
+                    'Store API',
+                    'Account',
+                    'Address',
+                ],
+            ],
+            'description' => [
+                'Create a new address',
+                5 => '',
+                10 => 'Update address',
+                15 => '',
+            ],
+            'operationId' => [
+                'createCustomerAddress',
+                10 => 'updateCustomerAddress',
+            ],
+            'requestBody' => [
+                $o[1],
+                10 => $o[11],
+            ],
+            'responses' => [
+                [
+                    $o[5],
+                ],
+                10 => [
+                    $o[15],
+                ],
+            ],
+            '_context' => [
+                $o[9],
+                $o[2],
+                3 => $o[4],
+                5 => $o[6],
+                7 => $o[8],
+                10 => $o[19],
+                $o[12],
+                13 => $o[14],
+                15 => $o[16],
+                17 => $o[18],
+            ],
+            '_unmerged' => [
+                1 => [
+                    $o[3],
+                ],
+                5 => [
+                    $o[7],
+                ],
+                11 => [
+                    $o[13],
+                ],
+                15 => [
+                    $o[17],
+                ],
+            ],
+            'filename' => [
+                2 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                4 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                6 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                8 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                12 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                14 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                16 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                18 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                2 => 825,
+                4 => 825,
+                6 => 825,
+                8 => 825,
+                825,
+                12 => 825,
+                14 => 825,
+                16 => 825,
+                18 => 825,
+                825,
+            ],
+            'method' => [
+                2 => 'Annotation',
+                4 => 'Annotation',
+                6 => 'Annotation',
+                8 => 'Annotation',
+                'Annotation',
+                12 => 'Annotation',
+                14 => 'Annotation',
+                16 => 'Annotation',
+                18 => 'Annotation',
+                'Annotation',
+            ],
+            'class' => [
+                2 => 'DocParser',
+                4 => 'DocParser',
+                6 => 'DocParser',
+                8 => 'DocParser',
+                'DocParser',
+                12 => 'DocParser',
+                14 => 'DocParser',
+                16 => 'DocParser',
+                18 => 'DocParser',
+                'DocParser',
+            ],
+            'namespace' => [
+                2 => 'Doctrine\\Common\\Annotations',
+                4 => 'Doctrine\\Common\\Annotations',
+                6 => 'Doctrine\\Common\\Annotations',
+                8 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+                12 => 'Doctrine\\Common\\Annotations',
+                14 => 'Doctrine\\Common\\Annotations',
+                16 => 'Doctrine\\Common\\Annotations',
+                18 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                2 => [
+                    $o[1],
+                ],
+                4 => [
+                    $o[3],
+                ],
+                6 => [
+                    $o[5],
+                ],
+                8 => [
+                    $o[7],
+                ],
+                [
+                    $o[0],
+                ],
+                12 => [
+                    $o[11],
+                ],
+                14 => [
+                    $o[13],
+                ],
+                16 => [
+                    $o[15],
+                ],
+                18 => [
+                    $o[17],
+                ],
+                [
+                    $o[10],
+                ],
+            ],
+            'ref' => [
+                3 => '#/components/schemas/customer_address_flat',
+                7 => '#/components/schemas/customer_address_flat',
+                13 => '#/components/schemas/customer_address_flat',
+                17 => '#/components/schemas/customer_address_flat',
+            ],
+            'response' => [
+                5 => '200',
+                15 => '200',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                20 => '/store-api/v{version}/account/address',
+                '/store-api/v{version}/account/address/{addressId}',
+            ],
+            'name' => [
+                20 => 'store-api.account.address.create',
+                'store-api.account.address.update',
+            ],
+            'defaults' => [
+                20 => [
+                    'addressId' => null,
+                ],
+            ],
+            'methods' => [
+                20 => [
+                    'POST',
+                ],
+                [
+                    'PATCH',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[10],
+        $o[20],
+        $o[21],
+    ],
+    []
+); }];

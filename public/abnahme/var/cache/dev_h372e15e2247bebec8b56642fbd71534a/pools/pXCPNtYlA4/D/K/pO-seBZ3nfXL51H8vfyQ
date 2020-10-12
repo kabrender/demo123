@@ -1,0 +1,116 @@
+<?php //%255BShopware%255CCore%255CContent%255CProduct%255CSalesChannel%255CDetail%255CProductDetailRoute%2523load%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Shopware\\Core\\Framework\\Routing\\Annotation\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Shopware\\Core\\Framework\\Routing\\Annotation\\Entity')),
+        clone ($p['OpenApi\\Annotations\\Post'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Post')),
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone ($p['OpenApi\\Annotations\\JsonContent'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\JsonContent')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Shopware\\Core\\Framework\\Routing\\Annotation\\Entity' => [
+            'value' => [
+                'product',
+            ],
+        ],
+        'stdClass' => [
+            'path' => [
+                1 => '/product/{productId}',
+            ],
+            'tags' => [
+                1 => [
+                    'Store API',
+                    'Product',
+                ],
+            ],
+            'description' => [
+                1 => 'This route is used to load a single product with the corresponding details. In addition to loading the data, the best variant of the product is determined when a parent id is passed.',
+                'Found product',
+            ],
+            'operationId' => [
+                1 => 'readProductDetail',
+            ],
+            'responses' => [
+                1 => [
+                    $o[2],
+                ],
+            ],
+            '_context' => [
+                1 => $o[6],
+                $o[3],
+                4 => $o[5],
+            ],
+            'response' => [
+                2 => '200',
+            ],
+            '_unmerged' => [
+                2 => [
+                    $o[4],
+                ],
+            ],
+            'filename' => [
+                3 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                5 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                3 => 825,
+                5 => 825,
+                825,
+            ],
+            'method' => [
+                3 => 'Annotation',
+                5 => 'Annotation',
+                'Annotation',
+            ],
+            'class' => [
+                3 => 'DocParser',
+                5 => 'DocParser',
+                'DocParser',
+            ],
+            'namespace' => [
+                3 => 'Doctrine\\Common\\Annotations',
+                5 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                3 => [
+                    $o[2],
+                ],
+                5 => [
+                    $o[4],
+                ],
+                [
+                    $o[1],
+                ],
+            ],
+            'ref' => [
+                4 => '#/components/schemas/product_flat',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                7 => '/store-api/v{version}/product/{productId}',
+            ],
+            'name' => [
+                7 => 'store-api.product.detail',
+            ],
+            'methods' => [
+                7 => [
+                    'POST',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[1],
+        $o[7],
+    ],
+    []
+); }];

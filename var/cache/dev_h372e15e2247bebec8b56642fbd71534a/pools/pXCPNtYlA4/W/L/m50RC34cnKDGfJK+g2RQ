@@ -1,0 +1,127 @@
+<?php //%255BShopware%255CCore%255CContent%255CSitemap%255CSalesChannel%255CSitemapRoute%2523load%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['OpenApi\\Annotations\\Get'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Get')),
+        clone ($p['OpenApi\\Annotations\\Response'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Response')),
+        clone ($p['OpenApi\\Context'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Context')),
+        clone ($p['OpenApi\\Annotations\\JsonContent'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\JsonContent')),
+        clone ($p['OpenApi\\Annotations\\Items'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('OpenApi\\Annotations\\Items')),
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone $p['OpenApi\\Context'],
+        clone ($p['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'path' => [
+                '/sitemap',
+            ],
+            'tags' => [
+                [
+                    'Store API',
+                    'Sitemap',
+                ],
+            ],
+            'description' => [
+                'Sitemap',
+                '',
+            ],
+            'operationId' => [
+                'readSitemap',
+            ],
+            'responses' => [
+                [
+                    $o[1],
+                ],
+            ],
+            '_context' => [
+                $o[7],
+                $o[2],
+                3 => $o[6],
+                $o[5],
+            ],
+            'response' => [
+                1 => '200',
+            ],
+            '_unmerged' => [
+                1 => [
+                    $o[3],
+                ],
+            ],
+            'filename' => [
+                2 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                5 => '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+                '/var/www/html/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php',
+            ],
+            'line' => [
+                2 => 825,
+                5 => 825,
+                825,
+                825,
+            ],
+            'method' => [
+                2 => 'Annotation',
+                5 => 'Annotation',
+                'Annotation',
+                'Annotation',
+            ],
+            'class' => [
+                2 => 'DocParser',
+                5 => 'DocParser',
+                'DocParser',
+                'DocParser',
+            ],
+            'namespace' => [
+                2 => 'Doctrine\\Common\\Annotations',
+                5 => 'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+                'Doctrine\\Common\\Annotations',
+            ],
+            'annotations' => [
+                2 => [
+                    $o[1],
+                ],
+                5 => [
+                    $o[4],
+                ],
+                [
+                    $o[3],
+                ],
+                [
+                    $o[0],
+                ],
+            ],
+            'type' => [
+                3 => 'array',
+            ],
+            'items' => [
+                3 => $o[4],
+            ],
+            'ref' => [
+                4 => '#/definitions/Sitemap',
+            ],
+        ],
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                8 => '/store-api/v{version}/sitemap',
+            ],
+            'name' => [
+                8 => 'store-api.sitemap',
+            ],
+            'methods' => [
+                8 => [
+                    'GET',
+                    'POST',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[8],
+    ],
+    []
+); }];

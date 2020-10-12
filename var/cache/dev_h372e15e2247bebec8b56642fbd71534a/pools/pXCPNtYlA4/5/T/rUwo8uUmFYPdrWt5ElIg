@@ -1,0 +1,32 @@
+<?php //%255BShopware%255CCore%255CCheckout%255CCustomer%255CApi%255CCustomerGroupRegistrationActionController%2523accept%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Routing\\Annotation\\Route' => [
+            'path' => [
+                '/api/v{version}/_action/customer-group-registration/accept/{customerId}',
+            ],
+            'name' => [
+                'api.customer-group.accept',
+            ],
+            'requirements' => [
+                [
+                    'version' => '\\d+',
+                ],
+            ],
+            'methods' => [
+                [
+                    'POST',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];
